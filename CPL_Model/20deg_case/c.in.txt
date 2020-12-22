@@ -1,0 +1,25 @@
+sName		ProximaC		# Body's name
+saModules 	eqtide distorb
+
+# Physical Properties
+dMass		-18  		# Mass, negative -> Earth masses, value from Benedict+2020
+sMassRad	Sotin07		# Mass-radius relationship
+dRotPeriod	-1
+
+# Orbital Properties
+dEcc            0.01		# Eccentricity (0, according to Benedict+2020)
+dSemi          	-1.48          	# Semi-major axis, negative -> AU, value from Damasso+2020
+
+# Eqtide Properties
+dTidalQ         100             # Tidal phase lag
+dK2             0.3             # Love number of degree 2
+dMaxLockDiff    0.01            # Tidally lock when spin period is within 1% of orbital period
+saTidePerts     Proxima         # Tidally interact with star
+
+# DISTORB Parameters
+dInc            1	        # Orbital inclination (degrees), value from Benedict+2020
+dLongA          90              # Longitude of the Ascending node (degrees)
+dLongP          0.0967          # Longitude of the Periapse (degrees)
+
+#Output
+saOutputOrder Time Eccentricity Inc

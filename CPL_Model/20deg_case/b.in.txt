@@ -1,0 +1,26 @@
+sName		ProximaB		# Body's name
+saModules 	eqtide distorb          # Modules
+
+# Physical Properties
+dMass		-1.91  	        # Mass, negative -> Earth masses, minimum 1.173 (Masareño+2020)
+sMassRad	Sotin07		# Mass-radius relationship
+dRotPeriod	-1
+
+# Orbital Properties
+dEcc            0.27	 	# Eccentricity, final value 0.105 (Mascareño+2020)
+dSemi           -0.0516         # Semi-major axis, negative -> AU, final value 0.0485 AU (Anglada-Escudé+2016)
+
+# Eqtide Properties
+dTidalQ         100             # Tidal phase lag
+dK2             0.3             # Love number of degree 2
+dMaxLockDiff    0.01            # Tidally lock when spin period is within 1% of orbital period
+saTidePerts     Proxima         # Tidally interacting with star
+
+# DISTORB Parameters
+dInc            21               # Orbital inclination
+dLongA          270	        # Longitude of the Ascending node (degrees)
+dLongP          0.1001          # Longitude of the Periapse (degrees)
+sOrbitModel     rd4             # Use 4th Order disturbing function model
+
+#Output
+saOutputOrder Time SemiMajorAxis Eccentricity Inc -RotPer

@@ -1,0 +1,24 @@
+sName		Proxima		# Body's name
+saModules stellar eqtide        # Modules
+
+# Physical Parameters
+dMass		    0.12        # Solar masses, negative -> Earth masses, value from Mann+2015
+dAge                1.0e6       # Assume star is 1 Myr old when disk disperses
+dRadGyra	    0.14	# Radius of gyration (moment of inertia constant), value from Anglada-Escudé+2016
+dRotPeriod	    -87		# Rotation period, negative -> Days, value from Mascareño+2020
+
+# The first body in the saBodyFiles list must be the central mass.
+# This body carries no orbital information => the coordinate system is bodycentric.
+
+# EQTIDE Parameters
+dTidalQ		    1.0e6		# Tidal phase lag
+dK2		    0.5			# Love number of degree 2
+sTideModel	    p2			# Tidal model, p2=CPL, t8=CTL
+saTidePerts	    ProximaB ProximaC	# Body name(s) of tidal perturbers
+
+# STELLAR parameters
+sStellarModel       baraffe     # Stellar evolution model: `baraffe` or `none`
+sMagBrakingModel    reiners     # Stellar magnetic braking model
+dSatXUVFrac         1.e-3       # Saturation level of the XUV luminosity
+
+saOutputOrder	Time

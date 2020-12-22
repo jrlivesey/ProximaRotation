@@ -1,0 +1,594 @@
+-------- Log file Proxima.log -------
+
+Executable: vplanet
+Version: v1.0.0-218-g1a827cfb4add9b6ad905950e7db3a7573070b72c
+System Name: Proxima
+Primary Input File: vpl.in
+Body File #1: star.in
+Body File #2: b.in
+Body File #3: c.in
+Allow files to be overwitten: Yes
+Mass Units: Kilograms
+Length Units: Meters
+Time Units: Seconds
+Angle Units: Radians
+
+------- FORMATTING -----
+Verbosity Level: 5
+Crossover Decade for Scientific Notation: 4
+Number of Digits After Decimal: 6
+Integration Method: Runge-Kutta4
+Direction: Forward
+Time Step: 3.155760e+07
+Stop Time: 2.209032e+17
+Output Interval: 3.155760e+11
+Use Variable Timestep: Yes
+dEta: 0.010000
+Minimum Value of ecc and obl: 1.000000e-10
+
+
+---- INITIAL SYSTEM PROPERTIES ----
+(Age) System Age [sec]: 3.155760e+13 
+(Time) Simulation Time [sec]: 0.000000 
+(TotAngMom) Total Angular Momentum [kg*m^2/sec]: 2.334138e+41 
+(TotEnergy) Total System Energy [kg*m^2/sec^2]: -2.861141e+39 
+(PotEnergy) Body's non-orbital Potential Energy [kg*m^2/sec^2]: -2.861094e+39 
+(KinEnergy) Body's non-orbital Kinetic Energy [kg*m^2/sec^2]: 1.040348e+34 
+(DeltaTime) Average Timestep Over Last Output Interval [sec]: 0.000000 
+(Density) Average Density [kg/m^3]: 1975.037251 
+(LongP) Body's Longitude of pericenter [rad]: 0.000000 
+(LXUVTot) Total XUV Luminosity [kg*m^2/sec^2/(m^2*sec)]: 3.574100e+22 
+
+----- BODY: Proxima ----
+Active Modules: EqTide STELLAR
+Module Bit Sum: 67
+Color: 000000
+(Mass) Mass [kg]: 2.386099e+29 
+(Obliquity) Obliquity [rad]: 0.000000 
+(PrecA) Body's precession angle [rad]: 0.000000 
+(Xobl) Body's sin(obl)*cos(pA) []: 0.000000 
+(Yobl) Body's sin(obl)*sin(pA) []: 0.000000 
+(Zobl) Body's cos(obl) []: 1.000000 
+(Radius) Radius [m]: 7.968941e+08 
+(RadGyra) Radius of Gyration []: 0.443315 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 2.489211e+40 
+(RotKinEnergy) Body's Rotational Energy [kg*m^2/sec^2]: 1.040348e+34 
+(RotVel) Rotational Velocity [m/sec]: 666.112338 
+(BodyType) Type of Body (0 == planet) []: 0.000000 
+(RotRate) Rotational Frequency [/sec]: 8.358857e-07 
+(RotPer) Rotational Period [sec]: 7.516800e+06 
+(SurfEnFluxTotal) Total Surface Energy Flux [kg*m^2/sec^2/(m^2*sec)]: 2.927414e-05 
+(TidalQ) Tidal Q []: 1.000000e+06 
+(ImK2) Im(k_2) []: -5.000000e-07 
+(K2) k_2 []: 0.500000 
+(K2Man) Real Love Number k2 Mantle []: 0.010000 
+(Imk2Man) Imaginary Love Number k2 Mantle []: 0.000000 
+(TidalQMantle) Mantle's Tidal Q []: 100.000000 
+(HEcc) Poincare's h (=e*sin(varpi) []: 0.000000 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 4.139276e+10 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 3.723826e+10 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 4.901707e+10 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 4.927239e+10 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 9.446038e+10 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 1.030187e+11 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: -1.000000 
+(KEcc) Poincare's k (=e*cos(varpi) []: 0.000000 
+(Eccentricity) Orbital Eccentricity []: -1.000000 
+(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: 0.000000 
+(MeanMotion) Orbital Mean Motion [/sec]: -1.000000 
+(OrbPeriod) Orbital Period [sec]: -1.000000 
+(SemiMajorAxis) Semi-major Axis [m]: -1.000000 
+(CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.000000 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 0.000000 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -2.347912e+34 
+(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -1.000000 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 5.562685e-309 
+(LostAngMom) Lost Angular Momentum due to Magnetic Braking [kg*m^2/sec]: 5.562685e-309 
+----- EQTIDE PARAMETERS (Proxima)------
+(LockTime) Time when body tidally locked. [sec]: -1.000000 
+(BodyDsemiDtEqtide) Body's Contribution to dSemi/dt in EQTIDE []: -1.000000 
+(BodyDeccDt) Body's Contribution to dEcc/dt in EQTIDE []: -1.000000 
+(DOblDtEqtide) Time Rate of Change of Obliquity in EQTIDE [rad/sec]: 0.000000 
+(DRotPerDtEqtide) Time Rate of Change of Rotation Period in EQTIDE []: -1.095323e-14 
+(DRotRateDtEqtide) Time Rate of Change of Rotational Frequency in EQTIDE [/sec^2]: 1.218025e-27 
+(EqRotRateDiscrete) CPL2 Discrete Equilibrium Spin Rate [/sec]: 8.479174e-06 
+(EqRotPerDiscrete) CPL2 Discrete Equilibrium Spin Period [sec]: 7.410138e+05 
+(EqRotRateCont) CPL2 Continuous Equilibrium Spin Rate [/sec]: 9.009123e-06 
+(EqRotPerCont) CPL2 Continuous Equilibrium Rotation Period [sec]: 6.974248e+05 
+(EqRotPer) Equilibrium Rotation Period [sec]: 7.410138e+05 
+(EqRotRate) Equilibrium Rotation Rate [/sec]: 8.479174e-06 
+(GammaRot) Gamma_Rotation [cgs]: -1.000000 
+(GammaOrb) Gamma_Orbital [cgs]: -1.000000 
+(OceanK2) K2_Ocean []: 0.010000 
+(EnvTidalQ) Envelope Tidal Q []: -1.000000 
+(OceanTidalQ) Ocean Tidal Q []: -1.000000 
+(TideLock) Tidally Locked? []: 0.000000 
+(RotTimeEqtide) Timescale for Rotational Evolution in EQTIDE [sec]: 1.218025e-27 
+(EnvK2) K2_Env []: 0.010000 
+(OblTimeEqtide) Timescale for Obliquity Evolution in EQTIDE []: -1.000000 
+(PowerEqtide) Internal Power due to Tides in EQTIDE [kg*m^2/sec^3]: 2.336121e+14 
+(SurfEnFluxEqtide) Surface Energy Flux due to Tides in EQTIDE [kg*m^2/sec^2/(m^2*sec)]: 2.927414e-05 
+Tidal Perturbers: ProximaB, ProximaC
+----- STELLAR PARAMETERS (Proxima)------
+(Luminosity) Luminosity [kg*m^2/sec^3]: 3.574100e+25 
+(LXUVStellar) Base X-ray/XUV Luminosity [kg*m^2/sec^3]: 3.574100e+22 
+(Temperature) Effective Temperature [K]: 2980.308267 
+(LXUVFrac) X-ray/XUV Luminosity Fraction []: 0.001000 
+(RossbyNumber) Rossby Number []: 1.273959 
+(DRotPerDtStellar) Time Rate of Change of Rotation Period in STELLAR []: -6.898845e-10 
+Output Order: Time[year]
+Grid Output Order:
+
+----- BODY: ProximaB ----
+Active Modules: DistOrb EqTide
+Module Bit Sum: 19
+Color: 000000
+(Mass) Mass [kg]: 1.952905e+25 
+(Obliquity) Obliquity [rad]: 0.000000 
+(PrecA) Body's precession angle [rad]: 0.000000 
+(Xobl) Body's sin(obl)*cos(pA) []: 0.000000 
+(Yobl) Body's sin(obl)*sin(pA) []: 0.000000 
+(Zobl) Body's cos(obl) []: 1.000000 
+(Radius) Radius [m]: 8.803357e+06 
+(RadGyra) Radius of Gyration []: 0.500000 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 2.751591e+34 
+(RotKinEnergy) Body's Rotational Energy [kg*m^2/sec^2]: 1.000507e+30 
+(RotVel) Rotational Velocity [m/sec]: 640.198185 
+(BodyType) Type of Body (0 == planet) []: 0.000000 
+(RotRate) Rotational Frequency [/sec]: 7.272205e-05 
+(RotPer) Rotational Period [days]: 1.000000 
+(SurfEnFluxTotal) Total Surface Energy Flux [kg*m^2/sec^2/(m^2*sec)]: 361.191409 
+(TidalQ) Tidal Q []: 100.000000 
+(ImK2) Im(k_2) []: -0.003000 
+(K2) k_2 []: 0.300000 
+(K2Man) Real Love Number k2 Mantle []: 0.010000 
+(Imk2Man) Imaginary Love Number k2 Mantle []: 0.000000 
+(TidalQMantle) Mantle's Tidal Q []: 100.000000 
+(HEcc) Poincare's h (=e*sin(varpi) []: 0.000437 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 4.672708e+04 
+(KEcc) Poincare's k (=e*cos(varpi) []: 0.250000 
+(Eccentricity) Orbital Eccentricity []: 0.250000 
+(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -1.961294e+34 
+(MeanMotion) Orbital Mean Motion [/sec]: 5.652783e-06 
+(OrbPeriod) Orbital Period [sec]: 1.111521e+06 
+(SemiMajorAxis) Semi-major Axis [m]: 7.928687e+09 
+(CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.000000 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 6.718867e+39 
+(ArgP) Body's argument of pericenter [rad]: 1.572543 
+(Inc) Body's Inclination [rad]: 0.052360 
+(LongA) Body's Longitude of ascending node [rad]: 4.712389 
+(MeanLongitude) Orbital Mean Longitude [rad]: 0.001747 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -2.347912e+34 
+(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -3.922588e+34 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 5.562685e-309 
+Mass-Radius Relationship: Bayless, A.J. & Orosz, J.A. 2006, ApJ, 651, 1155-1165.
+----- EQTIDE PARAMETERS (ProximaB)------
+(TidalRadius) Tidal Radius [m]: 8.803357e+06 
+(DsemiDtEqtide) Total da/dt in EQTIDE [m/sec]: 1.483729e-08 
+(DeccDtEqtide) Total de/dt in EQTIDE [/sec]: 6.172427e-19 
+(DMeanMotionDtEqtide) Total dMeanMotion/dt in EQTIDE [/sec^2]: -1.586744e-23 
+(DOrbPerDtEqtide) Total dOrbPer/dt in EQTIDE []: 3.120055e-12 
+(EccTimeEqtide) Timescale for Eccentricity Evolution (e/[de/dt]) in EQTIDE [sec]: 4.050271e+17 
+(SemiTimeEqtide) Timescale for Semi-major Axis Evolution (a/[da/dt]) in EQTIDE [sec]: 5.343756e+17 
+(DHEccDtEqtide) Time Rate of Change of Poincare's h in EQTIDE [/sec]: 1.078369e-21 
+(DKEccDtEqtide) Time Rate of Change of Poincare's k in EQTIDE [/sec]: 6.172418e-19 
+(DXoblDtEqtide) Time Rate of Change of Laskar's X in EQTIDE [/sec]: 0.000000 
+(DYoblDtEqtide) Time Rate of Change of Laskar's Y in EQTIDE [/sec]: 0.000000 
+(DZoblDtEqtide) Time Rate of Change of Laskar's Z in EQTIDE [/sec]: 0.000000 
+(LockTime) Time when body tidally locked. [sec]: -1.000000 
+(BodyDsemiDtEqtide) Body's Contribution to dSemi/dt in EQTIDE []: -1.000000 
+(BodyDeccDt) Body's Contribution to dEcc/dt in EQTIDE []: -1.000000 
+(DOblDtEqtide) Time Rate of Change of Obliquity in EQTIDE [rad/sec]: 0.000000 
+(DRotPerDtEqtide) Time Rate of Change of Rotation Period in EQTIDE []: 1.678439e-08 
+(DRotRateDtEqtide) Time Rate of Change of Rotational Frequency in EQTIDE [/sec^2]: -1.412726e-17 
+(EqRotRateDiscrete) CPL2 Discrete Equilibrium Spin Rate [/sec]: 8.479174e-06 
+(EqRotPerDiscrete) CPL2 Discrete Equilibrium Spin Period [sec]: 7.410138e+05 
+(EqRotRateCont) CPL2 Continuous Equilibrium Spin Rate [/sec]: 9.009123e-06 
+(EqRotPerCont) CPL2 Continuous Equilibrium Rotation Period [sec]: 6.974248e+05 
+(EqRotPer) Equilibrium Rotation Period [sec]: 7.410138e+05 
+(EqRotRate) Equilibrium Rotation Rate [/sec]: 8.479174e-06 
+(GammaRot) Gamma_Rotation [cgs]: -1.000000 
+(GammaOrb) Gamma_Orbital [cgs]: -1.000000 
+(OceanK2) K2_Ocean []: 0.010000 
+(EnvTidalQ) Envelope Tidal Q []: -1.000000 
+(OceanTidalQ) Ocean Tidal Q []: -1.000000 
+(TideLock) Tidally Locked? []: 0.000000 
+(RotTimeEqtide) Timescale for Rotational Evolution in EQTIDE [sec]: 5.147640e+12 
+(EnvK2) K2_Env []: 0.010000 
+(OblTimeEqtide) Timescale for Obliquity Evolution in EQTIDE []: -1.000000 
+(PowerEqtide) Internal Power due to Tides in EQTIDE [kg*m^2/sec^3]: 3.517579e+17 
+(SurfEnFluxEqtide) Surface Energy Flux due to Tides in EQTIDE [kg*m^2/sec^2/(m^2*sec)]: 361.191409 
+Tidal Perturbers: Proxima
+----- DISTORB PARAMETERS (ProximaB)------
+(Sinc) Body's sin(1/2*Inclination) in DistOrb []: 0.026177 
+(Pinc) Body's p = s*sin(Omega) in DistOrb []: -0.026177 
+(Qinc) Body's q = s* cos(Omega) in DistOrb []: -3.525767e-12 
+(DIncDtDistOrb) Body's dInc/dt in DistOrb [rad/sec]: 3.457393e-18 
+(DSincDtDistOrb) Body's dsin(.5*Inc)/dt in DistOrb [/sec]: 1.728104e-18 
+(DLongADtDistOrb) Body's dOmega/dt in DistOrb [rad/sec]: -1.510176e-13 
+(DLongPDtDistOrb) Body's dvarpi/dt in DistOrb [rad/sec]: 8.310090e-14 
+(DHeccDtDistOrb) Body's dh/dt in DistOrb [/sec]: 2.077519e-14 
+(DKeccDtDistOrb) Body's dk/dt in DistOrb [/sec]: -3.720556e-17 
+(DPincDtDistOrb) Body's dp/dt in DistOrb [/sec]: -1.728103e-18 
+(DQincDtDistOrb) Body's dq/dt in DistOrb [/sec]: -3.953180e-15 
+Output Order: Time[year] SemiMajorAxis[AU] Eccentricity[] Inc[deg] RotPer[days]
+Grid Output Order:
+
+----- BODY: ProximaC ----
+Active Modules: DistOrb EqTide
+Module Bit Sum: 19
+Color: 000000
+(Mass) Mass [kg]: 1.074993e+26 
+(Obliquity) Obliquity [rad]: 0.000000 
+(PrecA) Body's precession angle [rad]: 0.000000 
+(Xobl) Body's sin(obl)*cos(pA) []: 0.000000 
+(Yobl) Body's sin(obl)*sin(pA) []: 0.000000 
+(Zobl) Body's cos(obl) []: 1.000000 
+(Radius) Radius [m]: 1.399992e+07 
+(RadGyra) Radius of Gyration []: 0.500000 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 3.830565e+35 
+(RotKinEnergy) Body's Rotational Energy [kg*m^2/sec^2]: 1.392833e+31 
+(RotVel) Rotational Velocity [m/sec]: 1018.102658 
+(BodyType) Type of Body (0 == planet) []: 0.000000 
+(RotRate) Rotational Frequency [/sec]: 7.272205e-05 
+(RotPer) Rotational Period [sec]: 8.640000e+04 
+(SurfEnFluxTotal) Total Surface Energy Flux [kg*m^2/sec^2/(m^2*sec)]: 2.305687e-06 
+(TidalQ) Tidal Q []: 100.000000 
+(ImK2) Im(k_2) []: -0.003000 
+(K2) k_2 []: 0.300000 
+(K2Man) Real Love Number k2 Mantle []: 0.010000 
+(Imk2Man) Imaginary Love Number k2 Mantle []: 0.000000 
+(TidalQMantle) Mantle's Tidal Q []: 100.000000 
+(HEcc) Poincare's h (=e*sin(varpi) []: 1.687733e-05 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 58.023552 
+(KEcc) Poincare's k (=e*cos(varpi) []: 0.010000 
+(Eccentricity) Orbital Eccentricity []: 0.010000 
+(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -3.866176e+33 
+(MeanMotion) Orbital Mean Motion [/sec]: 3.831454e-08 
+(OrbPeriod) Orbital Period [sec]: 1.639896e+08 
+(SemiMajorAxis) Semi-major Axis [m]: 2.214048e+11 
+(CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.000000 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 2.018024e+41 
+(ArgP) Body's argument of pericenter [rad]: 4.714077 
+(Inc) Body's Inclination [rad]: 0.017453 
+(LongA) Body's Longitude of ascending node [rad]: 1.570796 
+(MeanLongitude) Orbital Mean Longitude [rad]: 0.001688 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -2.347912e+34 
+(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -7.732352e+33 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 5.562685e-309 
+Mass-Radius Relationship: Bayless, A.J. & Orosz, J.A. 2006, ApJ, 651, 1155-1165.
+----- EQTIDE PARAMETERS (ProximaC)------
+(TidalRadius) Tidal Radius [m]: 1.399992e+07 
+(DsemiDtEqtide) Total da/dt in EQTIDE [m/sec]: 1.749896e-16 
+(DeccDtEqtide) Total de/dt in EQTIDE [/sec]: 1.874716e-29 
+(DMeanMotionDtEqtide) Total dMeanMotion/dt in EQTIDE [/sec^2]: -4.542343e-35 
+(DOrbPerDtEqtide) Total dOrbPer/dt in EQTIDE []: 1.944163e-19 
+(EccTimeEqtide) Timescale for Eccentricity Evolution (e/[de/dt]) in EQTIDE [sec]: 5.334143e+26 
+(SemiTimeEqtide) Timescale for Semi-major Axis Evolution (a/[da/dt]) in EQTIDE [sec]: 1.265246e+27 
+(DHEccDtEqtide) Time Rate of Change of Poincare's h in EQTIDE [/sec]: 3.164018e-32 
+(DKEccDtEqtide) Time Rate of Change of Poincare's k in EQTIDE [/sec]: 1.874713e-29 
+(DXoblDtEqtide) Time Rate of Change of Laskar's X in EQTIDE [/sec]: 0.000000 
+(DYoblDtEqtide) Time Rate of Change of Laskar's Y in EQTIDE [/sec]: 0.000000 
+(DZoblDtEqtide) Time Rate of Change of Laskar's Z in EQTIDE [/sec]: 0.000000 
+(LockTime) Time when body tidally locked. [sec]: -1.000000 
+(BodyDsemiDtEqtide) Body's Contribution to dSemi/dt in EQTIDE []: -1.000000 
+(BodyDeccDt) Body's Contribution to dEcc/dt in EQTIDE []: -1.000000 
+(DOblDtEqtide) Time Rate of Change of Obliquity in EQTIDE [rad/sec]: 0.000000 
+(DRotPerDtEqtide) Time Rate of Change of Rotation Period in EQTIDE []: 1.762280e-17 
+(DRotRateDtEqtide) Time Rate of Change of Rotational Frequency in EQTIDE [/sec^2]: -1.483294e-26 
+(EqRotRateDiscrete) CPL2 Discrete Equilibrium Spin Rate [/sec]: 3.831454e-08 
+(EqRotPerDiscrete) CPL2 Discrete Equilibrium Spin Period [sec]: 1.639896e+08 
+(EqRotRateCont) CPL2 Continuous Equilibrium Spin Rate [/sec]: 3.835094e-08 
+(EqRotPerCont) CPL2 Continuous Equilibrium Rotation Period [sec]: 1.638340e+08 
+(EqRotPer) Equilibrium Rotation Period [sec]: 1.639896e+08 
+(EqRotRate) Equilibrium Rotation Rate [/sec]: 3.831454e-08 
+(GammaRot) Gamma_Rotation [cgs]: -1.000000 
+(GammaOrb) Gamma_Orbital [cgs]: -1.000000 
+(OceanK2) K2_Ocean []: 0.010000 
+(EnvTidalQ) Envelope Tidal Q []: -1.000000 
+(OceanTidalQ) Ocean Tidal Q []: -1.000000 
+(TideLock) Tidally Locked? []: 0.000000 
+(RotTimeEqtide) Timescale for Rotational Evolution in EQTIDE [sec]: 4.902740e+21 
+(EnvK2) K2_Env []: 0.010000 
+(OblTimeEqtide) Timescale for Obliquity Evolution in EQTIDE []: -1.000000 
+(PowerEqtide) Internal Power due to Tides in EQTIDE [kg*m^2/sec^3]: 5.678859e+09 
+(SurfEnFluxEqtide) Surface Energy Flux due to Tides in EQTIDE [kg*m^2/sec^2/(m^2*sec)]: 2.305687e-06 
+Tidal Perturbers: Proxima
+----- DISTORB PARAMETERS (ProximaC)------
+(Sinc) Body's sin(1/2*Inclination) in DistOrb []: 0.008727 
+(Pinc) Body's p = s*sin(Omega) in DistOrb []: 0.008727 
+(Qinc) Body's q = s* cos(Omega) in DistOrb []: 3.917917e-13 
+(DIncDtDistOrb) Body's dInc/dt in DistOrb [rad/sec]: 1.152462e-19 
+(DSincDtDistOrb) Body's dsin(.5*Inc)/dt in DistOrb [/sec]: 5.762093e-20 
+(DLongADtDistOrb) Body's dOmega/dt in DistOrb [rad/sec]: -1.507330e-14 
+(DLongPDtDistOrb) Body's dvarpi/dt in DistOrb [rad/sec]: -1.890040e-16 
+(DHeccDtDistOrb) Body's dh/dt in DistOrb [/sec]: -1.890032e-18 
+(DKeccDtDistOrb) Body's dk/dt in DistOrb [/sec]: 6.114292e-21 
+(DPincDtDistOrb) Body's dp/dt in DistOrb [/sec]: 5.762092e-20 
+(DQincDtDistOrb) Body's dq/dt in DistOrb [/sec]: 1.315377e-16 
+Output Order: Time[year] Eccentricity[] Inc[deg]
+Grid Output Order:
+
+
+
+---- FINAL SYSTEM PROPERTIES ----
+(Age) System Age [sec]: 2.209348e+17 
+(Time) Simulation Time [sec]: 2.209032e+17 
+(TotAngMom) Total Angular Momentum [kg*m^2/sec]: 2.332991e+41 
+(TotEnergy) Total System Energy [kg*m^2/sec^2]: -2.861111e+39 
+(PotEnergy) Body's non-orbital Potential Energy [kg*m^2/sec^2]: -2.260178e+40 
+(KinEnergy) Body's non-orbital Kinetic Energy [kg*m^2/sec^2]: 1.894583e+32 
+(DeltaTime) Average Timestep Over Last Output Interval [sec]: 1.434734e+05 
+(Density) Average Density [kg/m^3]: 9.736595e+05 
+(LongP) Body's Longitude of pericenter [rad]: 0.000000 
+(LXUVTot) Total XUV Luminosity [kg*m^2/sec^2/(m^2*sec)]: 3.089139e+18 
+
+----- BODY: Proxima ----
+Active Modules: EqTide STELLAR
+Module Bit Sum: 67
+Color: 000000
+(Mass) Mass [kg]: 2.386099e+29 
+(Obliquity) Obliquity [rad]: 0.000000 
+(PrecA) Body's precession angle [rad]: 0.000000 
+(Xobl) Body's sin(obl)*cos(pA) []: 0.000000 
+(Yobl) Body's sin(obl)*sin(pA) []: 0.000000 
+(Zobl) Body's cos(obl) []: 1.000000 
+(Radius) Radius [m]: 1.008765e+08 
+(RadGyra) Radius of Gyration []: 0.463369 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 4.444602e+38 
+(RotKinEnergy) Body's Rotational Energy [kg*m^2/sec^2]: 1.894583e+32 
+(RotVel) Rotational Velocity [m/sec]: 86.000479 
+(BodyType) Type of Body (0 == planet) []: 0.000000 
+(RotRate) Rotational Frequency [/sec]: 8.525323e-07 
+(RotPer) Rotational Period [sec]: 7.370026e+06 
+(SurfEnFluxTotal) Total Surface Energy Flux [kg*m^2/sec^2/(m^2*sec)]: 6.984217e-08 
+(TidalQ) Tidal Q []: 1.000000e+06 
+(ImK2) Im(k_2) []: -5.000000e-07 
+(K2) k_2 []: 0.500000 
+(K2Man) Real Love Number k2 Mantle []: 0.010000 
+(Imk2Man) Imaginary Love Number k2 Mantle []: 0.000000 
+(TidalQMantle) Mantle's Tidal Q []: 100.000000 
+(HEcc) Poincare's h (=e*sin(varpi) []: 0.000000 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 5.248475e+09 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 4.721495e+09 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 6.215067e+09 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 6.247320e+09 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 1.197565e+10 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 1.306067e+10 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: -1.000000 
+(KEcc) Poincare's k (=e*cos(varpi) []: 0.000000 
+(Eccentricity) Orbital Eccentricity []: -1.000000 
+(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: 0.000000 
+(MeanMotion) Orbital Mean Motion [/sec]: -1.000000 
+(OrbPeriod) Orbital Period [sec]: -1.000000 
+(SemiMajorAxis) Semi-major Axis [m]: -1.000000 
+(CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.000000 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 0.000000 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -2.525334e+34 
+(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -1.000000 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 1.974073e+40 
+(LostAngMom) Lost Angular Momentum due to Magnetic Braking [kg*m^2/sec]: 2.444760e+40 
+----- EQTIDE PARAMETERS (Proxima)------
+(LockTime) Time when body tidally locked. [sec]: -1.000000 
+(BodyDsemiDtEqtide) Body's Contribution to dSemi/dt in EQTIDE []: -1.000000 
+(BodyDeccDt) Body's Contribution to dEcc/dt in EQTIDE []: -1.000000 
+(DOblDtEqtide) Time Rate of Change of Obliquity in EQTIDE [rad/sec]: 0.000000 
+(DRotPerDtEqtide) Time Rate of Change of Rotation Period in EQTIDE []: -2.441209e-17 
+(DRotRateDtEqtide) Time Rate of Change of Rotational Frequency in EQTIDE [/sec^2]: 2.823884e-30 
+(EqRotRateDiscrete) CPL2 Discrete Equilibrium Spin Rate [/sec]: 6.436920e-06 
+(EqRotPerDiscrete) CPL2 Discrete Equilibrium Spin Period [sec]: 9.761167e+05 
+(EqRotRateCont) CPL2 Continuous Equilibrium Spin Rate [/sec]: 7.177053e-06 
+(EqRotPerCont) CPL2 Continuous Equilibrium Rotation Period [sec]: 8.754547e+05 
+(EqRotPer) Equilibrium Rotation Period [sec]: 9.761167e+05 
+(EqRotRate) Equilibrium Rotation Rate [/sec]: 6.436920e-06 
+(GammaRot) Gamma_Rotation [cgs]: -1.000000 
+(GammaOrb) Gamma_Orbital [cgs]: -1.000000 
+(OceanK2) K2_Ocean []: 0.010000 
+(EnvTidalQ) Envelope Tidal Q []: -1.000000 
+(OceanTidalQ) Ocean Tidal Q []: -1.000000 
+(TideLock) Tidally Locked? []: 0.000000 
+(RotTimeEqtide) Timescale for Rotational Evolution in EQTIDE [sec]: 2.823884e-30 
+(EnvK2) K2_Env []: 0.010000 
+(OblTimeEqtide) Timescale for Obliquity Evolution in EQTIDE []: -1.000000 
+(PowerEqtide) Internal Power due to Tides in EQTIDE [kg*m^2/sec^3]: 8.931155e+09 
+(SurfEnFluxEqtide) Surface Energy Flux due to Tides in EQTIDE [kg*m^2/sec^2/(m^2*sec)]: 6.984217e-08 
+Tidal Perturbers: ProximaB, ProximaC
+----- STELLAR PARAMETERS (Proxima)------
+(Luminosity) Luminosity [kg*m^2/sec^3]: 5.746247e+23 
+(LXUVStellar) Base X-ray/XUV Luminosity [kg*m^2/sec^3]: 3.089139e+18 
+(Temperature) Effective Temperature [K]: 2982.802239 
+(LXUVFrac) X-ray/XUV Luminosity Fraction []: 5.375924e-06 
+(RossbyNumber) Rossby Number []: 1.250680 
+(DRotPerDtStellar) Time Rate of Change of Rotation Period in STELLAR []: 1.062206e-11 
+Output Order: Time[year]
+Grid Output Order:
+
+----- BODY: ProximaB ----
+Active Modules: DistOrb EqTide
+Module Bit Sum: 19
+Color: 000000
+(Mass) Mass [kg]: 1.952905e+25 
+(Obliquity) Obliquity [rad]: 0.000000 
+(PrecA) Body's precession angle [rad]: 0.000000 
+(Xobl) Body's sin(obl)*cos(pA) []: 0.000000 
+(Yobl) Body's sin(obl)*sin(pA) []: 0.000000 
+(Zobl) Body's cos(obl) []: 1.000000 
+(Radius) Radius [m]: 8.803357e+06 
+(RadGyra) Radius of Gyration []: 0.500000 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 2.435543e+33 
+(RotKinEnergy) Body's Rotational Energy [kg*m^2/sec^2]: 7.838699e+27 
+(RotVel) Rotational Velocity [m/sec]: 56.666507 
+(BodyType) Type of Body (0 == planet) []: 0.000000 
+(RotRate) Rotational Frequency [/sec]: 6.436920e-06 
+(RotPer) Rotational Period [days]: 11.297647 
+(SurfEnFluxTotal) Total Surface Energy Flux [kg*m^2/sec^2/(m^2*sec)]: 3.426642 
+(TidalQ) Tidal Q []: 100.000000 
+(ImK2) Im(k_2) []: -0.003000 
+(K2) k_2 []: 0.300000 
+(K2Man) Real Love Number k2 Mantle []: 0.010000 
+(Imk2Man) Imaginary Love Number k2 Mantle []: 0.000000 
+(TidalQMantle) Mantle's Tidal Q []: 100.000000 
+(HEcc) Poincare's h (=e*sin(varpi) []: -0.073154 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 870.236332 
+(KEcc) Poincare's k (=e*cos(varpi) []: -0.082170 
+(Eccentricity) Orbital Eccentricity []: 0.110016 
+(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -2.138717e+34 
+(MeanMotion) Orbital Mean Motion [/sec]: 6.436920e-06 
+(OrbPeriod) Orbital Period [sec]: 9.761167e+05 
+(SemiMajorAxis) Semi-major Axis [m]: 7.270943e+09 
+(CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.000000 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 6.604818e+39 
+(ArgP) Body's argument of pericenter [rad]: 0.262744 
+(Inc) Body's Inclination [rad]: 0.062727 
+(LongA) Body's Longitude of ascending node [rad]: 3.606264 
+(MeanLongitude) Orbital Mean Longitude [rad]: -2.414178 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -2.525334e+34 
+(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -4.277433e+34 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 1.806374e+33 
+Mass-Radius Relationship: Bayless, A.J. & Orosz, J.A. 2006, ApJ, 651, 1155-1165.
+----- EQTIDE PARAMETERS (ProximaB)------
+(TidalRadius) Tidal Radius [m]: 8.803357e+06 
+(DsemiDtEqtide) Total da/dt in EQTIDE [m/sec]: -1.134525e-09 
+(DeccDtEqtide) Total de/dt in EQTIDE [/sec]: -7.091499e-19 
+(DMeanMotionDtEqtide) Total dMeanMotion/dt in EQTIDE [/sec^2]: 1.506582e-24 
+(DOrbPerDtEqtide) Total dOrbPer/dt in EQTIDE []: -2.284632e-13 
+(EccTimeEqtide) Timescale for Eccentricity Evolution (e/[de/dt]) in EQTIDE [sec]: 1.551372e+17 
+(SemiTimeEqtide) Timescale for Semi-major Axis Evolution (a/[da/dt]) in EQTIDE [sec]: 6.408800e+18 
+(DHEccDtEqtide) Time Rate of Change of Poincare's h in EQTIDE [/sec]: 4.715427e-19 
+(DKEccDtEqtide) Time Rate of Change of Poincare's k in EQTIDE [/sec]: 5.296613e-19 
+(DXoblDtEqtide) Time Rate of Change of Laskar's X in EQTIDE [/sec]: 0.000000 
+(DYoblDtEqtide) Time Rate of Change of Laskar's Y in EQTIDE [/sec]: 0.000000 
+(DZoblDtEqtide) Time Rate of Change of Laskar's Z in EQTIDE [/sec]: 0.000000 
+(LockTime) Time when body tidally locked. [sec]: 4.539659e+12 
+(BodyDsemiDtEqtide) Body's Contribution to dSemi/dt in EQTIDE []: -1.000000 
+(BodyDeccDt) Body's Contribution to dEcc/dt in EQTIDE []: -1.000000 
+(DOblDtEqtide) Time Rate of Change of Obliquity in EQTIDE [rad/sec]: 0.000000 
+(DRotPerDtEqtide) Time Rate of Change of Rotation Period in EQTIDE []: -8.435446e-298 
+(DRotRateDtEqtide) Time Rate of Change of Rotational Frequency in EQTIDE [/sec^2]: 5.562685e-309 
+(EqRotRateDiscrete) CPL2 Discrete Equilibrium Spin Rate [/sec]: 6.436920e-06 
+(EqRotPerDiscrete) CPL2 Discrete Equilibrium Spin Period [sec]: 9.761167e+05 
+(EqRotRateCont) CPL2 Continuous Equilibrium Spin Rate [/sec]: 7.177053e-06 
+(EqRotPerCont) CPL2 Continuous Equilibrium Rotation Period [sec]: 8.754547e+05 
+(EqRotPer) Equilibrium Rotation Period [sec]: 9.761167e+05 
+(EqRotRate) Equilibrium Rotation Rate [/sec]: 6.436920e-06 
+(GammaRot) Gamma_Rotation [cgs]: -1.000000 
+(GammaOrb) Gamma_Orbital [cgs]: -1.000000 
+(OceanK2) K2_Ocean []: 0.010000 
+(EnvTidalQ) Envelope Tidal Q []: -1.000000 
+(OceanTidalQ) Ocean Tidal Q []: -1.000000 
+(TideLock) Tidally Locked? []: 1.000000 
+(RotTimeEqtide) Timescale for Rotational Evolution in EQTIDE [sec]: 1.157161e+303 
+(EnvK2) K2_Env []: 0.010000 
+(OblTimeEqtide) Timescale for Obliquity Evolution in EQTIDE []: -1.000000 
+(PowerEqtide) Internal Power due to Tides in EQTIDE [kg*m^2/sec^3]: 3.337146e+15 
+(SurfEnFluxEqtide) Surface Energy Flux due to Tides in EQTIDE [kg*m^2/sec^2/(m^2*sec)]: 3.426642 
+Tidal Perturbers: Proxima
+----- DISTORB PARAMETERS (ProximaB)------
+(Sinc) Body's sin(1/2*Inclination) in DistOrb []: 0.031358 
+(Pinc) Body's p = s*sin(Omega) in DistOrb []: -0.014053 
+(Qinc) Body's q = s* cos(Omega) in DistOrb []: -0.028033 
+(DIncDtDistOrb) Body's dInc/dt in DistOrb [rad/sec]: 1.251278e-15 
+(DSincDtDistOrb) Body's dsin(.5*Inc)/dt in DistOrb [/sec]: 6.253313e-16 
+(DLongADtDistOrb) Body's dOmega/dt in DistOrb [rad/sec]: -1.042659e-13 
+(DLongPDtDistOrb) Body's dvarpi/dt in DistOrb [rad/sec]: 9.122129e-14 
+(DHeccDtDistOrb) Body's dh/dt in DistOrb [/sec]: -7.523928e-15 
+(DKeccDtDistOrb) Body's dk/dt in DistOrb [/sec]: 6.641442e-15 
+(DPincDtDistOrb) Body's dp/dt in DistOrb [/sec]: 2.642698e-15 
+(DQincDtDistOrb) Body's dq/dt in DistOrb [/sec]: -2.024231e-15 
+Output Order: Time[year] SemiMajorAxis[AU] Eccentricity[] Inc[deg] RotPer[days]
+Grid Output Order:
+
+----- BODY: ProximaC ----
+Active Modules: DistOrb EqTide
+Module Bit Sum: 19
+Color: 000000
+(Mass) Mass [kg]: 1.074993e+26 
+(Obliquity) Obliquity [rad]: 0.000000 
+(PrecA) Body's precession angle [rad]: 0.000000 
+(Xobl) Body's sin(obl)*cos(pA) []: 0.000000 
+(Yobl) Body's sin(obl)*sin(pA) []: 0.000000 
+(Zobl) Body's cos(obl) []: 1.000000 
+(Radius) Radius [m]: 1.399992e+07 
+(RadGyra) Radius of Gyration []: 0.500000 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 3.830393e+35 
+(RotKinEnergy) Body's Rotational Energy [kg*m^2/sec^2]: 1.392707e+31 
+(RotVel) Rotational Velocity [m/sec]: 1018.056782 
+(BodyType) Type of Body (0 == planet) []: 0.000000 
+(RotRate) Rotational Frequency [/sec]: 7.271878e-05 
+(RotPer) Rotational Period [sec]: 8.640389e+04 
+(SurfEnFluxTotal) Total Surface Energy Flux [kg*m^2/sec^2/(m^2*sec)]: 2.305685e-06 
+(TidalQ) Tidal Q []: 100.000000 
+(ImK2) Im(k_2) []: -0.003000 
+(K2) k_2 []: 0.300000 
+(K2Man) Real Love Number k2 Mantle []: 0.010000 
+(Imk2Man) Imaginary Love Number k2 Mantle []: 0.000000 
+(TidalQMantle) Mantle's Tidal Q []: 100.000000 
+(HEcc) Poincare's h (=e*sin(varpi) []: -0.010018 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 0.932874 
+(KEcc) Poincare's k (=e*cos(varpi) []: -0.002354 
+(Eccentricity) Orbital Eccentricity []: 0.010291 
+(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -3.866176e+33 
+(MeanMotion) Orbital Mean Motion [/sec]: 3.831454e-08 
+(OrbPeriod) Orbital Period [sec]: 1.639896e+08 
+(SemiMajorAxis) Semi-major Axis [m]: 2.214048e+11 
+(CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.000000 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 2.018018e+41 
+(ArgP) Body's argument of pericenter [rad]: 3.019992 
+(Inc) Body's Inclination [rad]: 0.016721 
+(LongA) Body's Longitude of ascending node [rad]: 1.461622 
+(MeanLongitude) Orbital Mean Longitude [rad]: -1.801571 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -2.525334e+34 
+(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -7.732352e+33 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 1.254533e+27 
+Mass-Radius Relationship: Bayless, A.J. & Orosz, J.A. 2006, ApJ, 651, 1155-1165.
+----- EQTIDE PARAMETERS (ProximaC)------
+(TidalRadius) Tidal Radius [m]: 1.399992e+07 
+(DsemiDtEqtide) Total da/dt in EQTIDE [m/sec]: 1.715354e-16 
+(DeccDtEqtide) Total de/dt in EQTIDE [/sec]: 1.890984e-29 
+(DMeanMotionDtEqtide) Total dMeanMotion/dt in EQTIDE [/sec^2]: -4.452680e-35 
+(DOrbPerDtEqtide) Total dOrbPer/dt in EQTIDE []: 1.905786e-19 
+(EccTimeEqtide) Timescale for Eccentricity Evolution (e/[de/dt]) in EQTIDE [sec]: 5.441965e+26 
+(SemiTimeEqtide) Timescale for Semi-major Axis Evolution (a/[da/dt]) in EQTIDE [sec]: 1.290724e+27 
+(DHEccDtEqtide) Time Rate of Change of Poincare's h in EQTIDE [/sec]: -1.840853e-29 
+(DKEccDtEqtide) Time Rate of Change of Poincare's k in EQTIDE [/sec]: -4.325288e-30 
+(DXoblDtEqtide) Time Rate of Change of Laskar's X in EQTIDE [/sec]: 0.000000 
+(DYoblDtEqtide) Time Rate of Change of Laskar's Y in EQTIDE [/sec]: 0.000000 
+(DZoblDtEqtide) Time Rate of Change of Laskar's Z in EQTIDE [/sec]: 0.000000 
+(LockTime) Time when body tidally locked. [sec]: -1.000000 
+(BodyDsemiDtEqtide) Body's Contribution to dSemi/dt in EQTIDE []: -1.000000 
+(BodyDeccDt) Body's Contribution to dEcc/dt in EQTIDE []: -1.000000 
+(DOblDtEqtide) Time Rate of Change of Obliquity in EQTIDE [rad/sec]: 0.000000 
+(DRotPerDtEqtide) Time Rate of Change of Rotation Period in EQTIDE []: 1.762517e-17 
+(DRotRateDtEqtide) Time Rate of Change of Rotational Frequency in EQTIDE [/sec^2]: -1.483360e-26 
+(EqRotRateDiscrete) CPL2 Discrete Equilibrium Spin Rate [/sec]: 3.831454e-08 
+(EqRotPerDiscrete) CPL2 Discrete Equilibrium Spin Period [sec]: 1.639896e+08 
+(EqRotRateCont) CPL2 Continuous Equilibrium Spin Rate [/sec]: 3.835308e-08 
+(EqRotPerCont) CPL2 Continuous Equilibrium Rotation Period [sec]: 1.638248e+08 
+(EqRotPer) Equilibrium Rotation Period [sec]: 1.639896e+08 
+(EqRotRate) Equilibrium Rotation Rate [/sec]: 3.831454e-08 
+(GammaRot) Gamma_Rotation [cgs]: -1.000000 
+(GammaOrb) Gamma_Orbital [cgs]: -1.000000 
+(OceanK2) K2_Ocean []: 0.010000 
+(EnvTidalQ) Envelope Tidal Q []: -1.000000 
+(OceanTidalQ) Ocean Tidal Q []: -1.000000 
+(TideLock) Tidally Locked? []: 0.000000 
+(RotTimeEqtide) Timescale for Rotational Evolution in EQTIDE [sec]: 4.902302e+21 
+(EnvK2) K2_Env []: 0.010000 
+(OblTimeEqtide) Timescale for Obliquity Evolution in EQTIDE []: -1.000000 
+(PowerEqtide) Internal Power due to Tides in EQTIDE [kg*m^2/sec^3]: 5.678854e+09 
+(SurfEnFluxEqtide) Surface Energy Flux due to Tides in EQTIDE [kg*m^2/sec^2/(m^2*sec)]: 2.305685e-06 
+Tidal Perturbers: Proxima
+----- DISTORB PARAMETERS (ProximaC)------
+(Sinc) Body's sin(1/2*Inclination) in DistOrb []: 0.008360 
+(Pinc) Body's p = s*sin(Omega) in DistOrb []: 0.008311 
+(Qinc) Body's q = s* cos(Omega) in DistOrb []: 0.000911 
+(DIncDtDistOrb) Body's dInc/dt in DistOrb [rad/sec]: -1.574340e-16 
+(DSincDtDistOrb) Body's dsin(.5*Inc)/dt in DistOrb [/sec]: -7.871423e-17 
+(DLongADtDistOrb) Body's dOmega/dt in DistOrb [rad/sec]: -8.994462e-15 
+(DLongPDtDistOrb) Body's dvarpi/dt in DistOrb [rad/sec]: 1.866857e-15 
+(DHeccDtDistOrb) Body's dh/dt in DistOrb [/sec]: 3.972897e-18 
+(DKeccDtDistOrb) Body's dk/dt in DistOrb [/sec]: 2.066786e-17 
+(DPincDtDistOrb) Body's dp/dt in DistOrb [/sec]: -8.643898e-17 
+(DQincDtDistOrb) Body's dq/dt in DistOrb [/sec]: 6.617351e-17 
+Output Order: Time[year] Eccentricity[] Inc[deg]
+Grid Output Order:
