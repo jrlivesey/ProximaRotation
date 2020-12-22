@@ -7,7 +7,7 @@ Overview
 Possible scenario of the co-evolution of the orbits of Proxima b and Proxima c.
 
 ===================   ============
-**Date**              6/24/20
+**Date**              12/22/20
 **Author**            Joseph Livesey
 **Modules**           DistOrb
                       EqTide
