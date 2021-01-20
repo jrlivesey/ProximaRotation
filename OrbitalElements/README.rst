@@ -4,7 +4,7 @@ Orbital elements of Proxima b
 ===================   ============
 **Date**              1/19/21
 **Author**            Joseph Livesey
-**Approx. runtime**   8 CPU hours (simulations)
+**Approx. runtime**   8 CPU hours (simulations), 
                       < 90 minutes (plotting)
 ===================   ============
 
