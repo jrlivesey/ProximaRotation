@@ -16,7 +16,9 @@ To execute
 ----------
 
 .. code-block:: bash
-   $vspace vspace.in
+
+    vplanet vpl.in
+    python makeplot.py <pdf | png>
 
 Expected output
 ---------------
