@@ -14,9 +14,8 @@ The evolutions are virtually identical under our model. Therefore, we can comfor
 
 To execute
 ----------
-
-.. code-block:: bash
-    ${vspace vspace.in}
+::
+  vspace vspace.in
 
 Expected output
 ---------------
