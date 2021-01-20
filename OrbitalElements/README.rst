@@ -8,14 +8,16 @@ Orbital elements of Proxima b
                       < 90 minutes (plotting)
 ===================   ============
 
-The orbital plane of Proxima b is presently unconstrained. In the paper, we claim that the initial longitude of ascending node (Ω) and longitude of pericenter (ϖ) of Proxima b have no bearing on our major result: the timescale on which Proxima b is captured into the synchronous rotation state. Here, we present 100 evolutions of Proxima b's rotational period, assembled with [VSPACE](https://github.com/VitualPlanetaryLaboratory/vplanet/tree/master/vspace) using the CPL tidal model and an initial mutual inclination of 2º between Proxima b and Proxima c.
+The orbital plane of Proxima b is presently unconstrained. In the paper, we claim that the initial longitude of ascending node (Ω) and longitude of pericenter (ϖ) of Proxima b have no bearing on our major result: the timescale on which Proxima b is captured into the synchronous rotation state. Here, we present 100 evolutions of Proxima b's rotational period, assembled with `VSPACE <https://github.com/VirtualPlanetaryLaboratory/vplanet/tree/master/vspace/>`_ using the CPL tidal model and an initial mutual inclination of 2º between Proxima b and Proxima c.
 
-To execute:
+To execute
+----------
 
 .. code-block:: bash
     vspace vspace.in
 
-Expected output:
+Expected output
+---------------
 
 .. figure:: initialspace.png
    :width: 600px
