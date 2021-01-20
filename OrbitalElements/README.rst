@@ -12,8 +12,7 @@ The orbital plane of Proxima b is presently unconstrained. In the paper, we clai
 
 The evolutions are virtually identical under our model. Therefore, we can comfortably set both parameters to zero initially.
 
-To execute
-----------
+To execute the parameter sweep:
 
 .. code-block:: bash
 
