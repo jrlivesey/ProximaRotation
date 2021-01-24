@@ -2,8 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import vplot as vpl
 import sys
-import scipy.signal as sig
-import subprocess
 
 # Check correct number of arguments
 if (len(sys.argv) != 2):
