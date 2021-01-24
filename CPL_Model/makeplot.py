@@ -1,9 +1,3 @@
-"""
-This script produces figures detailing Proxima b's orbital evolution, using VPLANET's STELLAR, EQTIDE, and DISTORB modules.
-
-Joseph R. Livesey, University of Washington, 2020
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 import vplot as vpl
