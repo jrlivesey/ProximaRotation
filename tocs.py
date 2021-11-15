@@ -97,7 +97,7 @@ else:
                             if line[0] == 'dTidalQ':
                                 tidalQ = float(line[1])
                             if line[0] == 'dTidalTau':
-                                tidalTau = float(line[1])                           # seconds
+                                tidalTau = float(line[1].replace('-',''))                           # seconds
                             if line[0] == 'dEcc':
                                 ecc_init = float(line[1])
                             if line[0] == 'dInc':
@@ -132,6 +132,7 @@ else:
             # DETERMINE WHETHER THE PLANET IS WITHIN OBSERVATIONAL CONSTRAINTS
             if os.path.exists('Proxima.log') == False:
                 break
+            constrained = True
             a_final = get_output(units=False).ProximaB.SemiMajorAxis[-1]
             if a_final > 0.04833 and a_final < 0.04895:
                 constrained = True
@@ -170,18 +171,25 @@ else:
             if constrained == True:
                 if args.ecrit == None:
                     # sim_key_data = [ecc_init, inc_init, inc_init_c, semi, mass1, mass2, crit, toc]
-                    sim_key_data = str(ecc_init) + ' ' + str(inc_init) + ' ' + str(inc_init_c) + ' ' + str(semi) + ' ' + str(mass1) + ' ' + str(mass2) + ' ' + str(crit) + ' ' + str(toc)
+                    sim_key_data = str(ecc_init) + ' ' + str(inc_init) + ' ' + str(inc_init_c) + ' ' + str(semi) + ' ' + str(mass1) + ' ' + str(mass2) + ' ' + str(crit) + ' ' + str(toc) + '\n'
                 else:
                     # sim_key_data = [ecc_init, inc_init, inc_init_c, crit, toc]
-                    sim_key_data = str(ecc_init) + ' ' + str(inc_init) + ' ' + str(inc_init_c) + ' ' + str(crit) + ' ' + str(toc)
+                    sim_key_data = str(ecc_init) + ' ' + str(inc_init) + ' ' + str(inc_init_c) + ' ' + str(crit) + ' ' + str(toc) + '\n'
 
 
-            key_data.append(sim_key_data)
+            if sim_key_data != None:
+                key_data.append(sim_key_data)
+
 
             os.chdir(path)
 
 
 # WRITE LIST TO FILE
-with open('key_data.txt', 'w') as file:
-    lines = [sim_key_data for sim_key_data in key_data]
-    file.writelines(lines)
+# with open('key_data.txt', 'w') as file:
+#     lines = [sim_key_data for sim_key_data in key_data]
+#     file.writelines(lines)
+
+f = open('key_data.txt', 'w')
+lines = [sim_key_data for sim_key_data in key_data]
+f.writelines(lines)
+f.close()
